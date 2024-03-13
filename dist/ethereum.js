@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getUsdtBalance = exports.getBlockNumber = void 0;
 const ethers_1 = require("ethers");
-const apiKey = "ubn9mmfqYNdeikJ6VR1TyW3nXZciSLywZGq1IPHaZV0h5YrDvBw2kA";
+const apiKey = "658b776001284f2f9071184858fa87f5";
 const ethereumRpcEndpoint = 'https://mainnet.infura.io/v3/658b776001284f2f9071184858fa87f5';
 const usdtContractAddress = '0xdac17f958d2ee523a2206206994597c13d831ec7';
 function getBlockNumber() {
