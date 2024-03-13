@@ -15,7 +15,7 @@ function main() {
         try {
             const lastBlockNumber = yield (0, ethereum_1.getBlockNumber)();
             console.log('Last Block Number:', lastBlockNumber);
-            const ethereumAddress = '0xYOUR_ETHEREUM_ADDRESS';
+            const ethereumAddress = '0xdAC17F958D2ee523a2206206994597C13D831ec7';
             const usdtBalance = yield (0, ethereum_1.getUsdtBalance)(ethereumAddress);
             console.log('USDT Balance:', usdtBalance, 'USDT');
         }
